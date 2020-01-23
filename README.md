@@ -1,5 +1,9 @@
 # Heroku Release Phase Sample App
 
+![Status](https://img.shields.io/badge/status-Beta-yellowgreen)
+![Geography](https://img.shields.io/badge/Geography-US-blue)
+
+
 This is a simple sample application designed to showcase Heroku Release Phases, a feature which allows you to automate deploy tasks right before a Heroku app is made publicly available. In this example, a static asset is uploaded to an S3 instance and said asset is referenced in one of the views with help from a S3-hosted base URL for the asset injected in via an environment variable.
 
 The repository includes a set of static assets — in this case, an image and a CSS file — which, at the time of deploy, are coped into S3 (or overwritten) and then referenced in the views. 
